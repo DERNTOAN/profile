@@ -7,95 +7,116 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card text-center">
-      <img src="images/profile.jpg" alt="Anton Castell" class="avatar-circle">
-      <h1>Anton Castell</h1>
-      <h2>Student @LeWagon</h2>
-      <p>After being a consultant for 12 months I want to <strong>tackle coding as a new challenge</strong></p>
-      <a href="https://github.com/DERNTOAN?tab=repositories" target="_blank" class="btn-red">
-        Check me out on GitHub
-      </a>
-    </div>
-    <div class="card text-center">
-      <ul class="list-inline">
-        <li>
-          <a href="https://www.facebook.com/profile.php?id=561920433" target="_blank">
-            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><br>Facebook
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/anton-castell-110131a2/" target="_blank">
-            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><br>LinkedIn
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="card text-center">
-     <h2>
-     My favorite movies</h2>
-     <table>
-      <tr>
-        <td>
-          <img src="images/second_hand_lions.jpeg" alt="Second Hand Lions" class="image-size">
-        </td>
-        <td>
-          <h2>
-            Second Hand Lions
-          </h2>
-          <p>
-            Secondhand Lions is a 2003 American comedy-drama film written and directed by Tim McCanlies. It tells the story of an introverted young boy (Haley Joel Osment) who is sent to live with his eccentric great-uncles (Robert Duvall and Michael Caine) on a farm in Texas.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="images/sin_city.jpg" alt="Sin City" class="image-size">
-        </td>
-        <td>
-          <h2>
-            Sin City
-          </h2>
-          <p>
-            Sin City (also known as Frank Miller's Sin City) is a 2005 American neo-noir crime anthology film written, produced, and directed by Robert Rodriguez and Frank Miller. It is based on Miller's graphic novel of the same name.[4]
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="images/life_of_brian_poster.jpg" alt="Life of Brian" class="image-size">
-        </td>
-        <td>
-          <h2>
-            Life of Brian
-          </h2>
-          <p>
-            Monty Python's Life of Brian, also known as Life of Brian, is a 1979 British religious satire comedy film starring and written by the comedy group Monty Python (Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin). It was also directed by Jones. The film tells the story of Brian Cohen (played by Chapman), a young Jewish man who is born on the same day as, and next door to, Jesus Christ, and is subsequently mistaken for the Messiah.
-          </p>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="card text-center">
-    <h2>About this page</h2>
-    <p>
-      This page has been coded during the <a href="https://www.lewagon.com/" target="_blank">FullStack program @LeWagon</a>.
-    </p>
+  <div id="sidebar" class="card">
     <ul class="list-inline">
-      <li>
-        <a href="#" target="_blank">
-          <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
-        </a>
+      <li id="sidebar-element">
+        <a href="#summary">Info</a>
       </li>
-      <li>
-        <a href="#" target="_blank"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a>
+      <li id="sidebar-element">
+        <a href="#favorite-movies">Movies</a>
       </li>
-      <li>
-        <a href="#" target="_blank">
-          <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-        </a>
+      <li id="sidebar-element">
+        <a href="#help">Info</a>
       </li>
     </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div id="summary">
+        <div class="card text-center">
+          <img src="images/profile.jpg" alt="Anton Castell" class="avatar-circle">
+          <h1>Anton Castell</h1>
+          <h2>Student @LeWagon</h2>
+          <p>After being a consultant for 12 months I want to <strong>tackle coding as a new challenge</strong></p>
+          <a href="https://github.com/DERNTOAN?tab=repositories" target="_blank" class="btn-red">
+            Check me out on GitHub
+          </a>
+        </div>
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=561920433" target="_blank">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i><br>Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/anton-castell-110131a2/" target="_blank">
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i><br>LinkedIn
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="favorite-movies">
+        <div class="card text-center">
+         <h2>
+         My favorite movies</h2>
+         <table>
+          <tr>
+            <td>
+              <img src="images/second_hand_lions.jpeg" alt="Second Hand Lions" class="image-size">
+            </td>
+            <td>
+              <h2>
+                Second Hand Lions
+              </h2>
+              <p>
+                Secondhand Lions is a 2003 American comedy-drama film written and directed by Tim McCanlies. It tells the story of an introverted young boy (Haley Joel Osment) who is sent to live with his eccentric great-uncles (Robert Duvall and Michael Caine) on a farm in Texas.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/sin_city.jpg" alt="Sin City" class="image-size">
+            </td>
+            <td>
+              <h2>
+                Sin City
+              </h2>
+              <p>
+                Sin City (also known as Frank Miller's Sin City) is a 2005 American neo-noir crime anthology film written, produced, and directed by Robert Rodriguez and Frank Miller. It is based on Miller's graphic novel of the same name.[4]
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/life_of_brian_poster.jpg" alt="Life of Brian" class="image-size">
+            </td>
+            <td>
+              <h2>
+                Life of Brian
+              </h2>
+              <p>
+                Monty Python's Life of Brian, also known as Life of Brian, is a 1979 British religious satire comedy film starring and written by the comedy group Monty Python (Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin). It was also directed by Jones. The film tells the story of Brian Cohen (played by Chapman), a young Jewish man who is born on the same day as, and next door to, Jesus Christ, and is subsequently mistaken for the Messiah.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="help">
+      <div class="card text-center">
+        <h2>About this page</h2>
+        <p>
+          This page has been coded during the <a href="https://www.lewagon.com/" target="_blank">FullStack program @LeWagon</a>.
+        </p>
+        <ul class="list-inline">
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 </body>
